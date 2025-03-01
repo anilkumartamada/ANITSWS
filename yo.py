@@ -49,7 +49,7 @@ df_historical["day"] = range(1, 31)
 
 print(df_historical.head())
 
-from sklearn.model_selectio import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
 X = df_historical[["day"]]
