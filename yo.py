@@ -25,17 +25,17 @@ covid_data = {
 df = pd.DataFrame([covid_data])
 print(df)
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-labels = ["Total Cases", "Active Cases", "Recovered", "Deaths"]
-values = [data["cases"], data["active"], data["recovered"], data["deaths"]]
+# labels = ["Total Cases", "Active Cases", "Recovered", "Deaths"]
+# values = [data["cases"], data["active"], data["recovered"], data["deaths"]]
 
-plt.figure(figsize=(8,5))
-plt.bar(labels, values, color=['blue', 'orange', 'green', 'red'])
-plt.xlabel("Category")
-plt.ylabel("Count")
-plt.title("COVID-19 Data for USA")
-plt.show()
+# plt.figure(figsize=(8,5))
+# plt.bar(labels, values, color=['blue', 'orange', 'green', 'red'])
+# plt.xlabel("Category")
+# plt.ylabel("Count")
+# plt.title("COVID-19 Data for USA")
+# plt.show()
 
 import numpy as np
 
